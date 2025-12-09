@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Home - Portfolio</title>
+
+    <style>
+        body {
+            font-family: Arial;
+            margin: 0;
+            background: #f8f9fa;
+        }
+
+        
+        header {
+            background: linear-gradient(90deg, #ff6b6b, #ff9f43, #feca57);
+            padding: 15px;
+            color: white;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        nav a {
+            color: white;
+            margin-left: 20px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        .container {
+            width: 80%;
+            margin: auto;
+            padding: 20px 0;
+        }
+
+        
+        .box {
+            width: 48%;
+            float: left;
+            padding: 20px;
+            margin: 1%;
+            color: white;
+            border-radius: 10px;
+        }
+
+        .box1 { background: #1dd1a1; }   /* Green */
+        .box2 { background: #54a0ff; }   /* Blue */
+
+        .clearfix::after {
+            content: "";
+            display: block;
+            clear: both;
+        }
+
+        
+        h1 {
+            color: #ff6b6b;
+        }
+
+        p {
+            font-size: 18px;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <nav>
+        <div class="logo"><b>Yash Chaudhary</b></div>
+        <div>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="skills.html">Skills</a>
+            <a href="contact.html">Contact</a>
+        </div>
+    </nav>
+</header>
+
+<div class="container">
+    <h1>Welcome to My Portfolio</h1>
+    <p>This is my colorful and simple student portfolio website.</p>
+
+    <div class="clearfix">
+        <div class="box box1">
+            <h3>About Me</h3>
+            <p>I am a student learning web development and design.</p>
+        </div>
+
+        <div class="box box2">
+            <h3>My Goals</h3>
+            <p>I want to improve my skills and build real projects.</p>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
